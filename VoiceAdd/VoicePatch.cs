@@ -5,6 +5,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace VoiceAdd
 {
@@ -30,11 +32,15 @@ namespace VoiceAdd
         [PatchPrefix]
         private static void PatchPrefix()
         {
-            var result = Traverse.Create(_targetType).Field<Dictionary<string, string>>("dictionary_0").Value;
+            string json = new StreamReader("./user/mods/StalkerVoices/voices.json").ReadToEnd();
+            Dictionary<string, string> voices = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+            Dictionary<string, string> value = Traverse.Create(_targetType).Field<Dictionary<string, string>>("dictionary_0").Value;
 
-            if(!result.ContainsKey("Monolith_3"))
+            foreach (var voicename in voices.Keys)
             {
-                result.Add("Monolith_3", "assets/content/audio/phrases/monolith_3_voice.bundle");
+                voices.TryGetValue(voicename, out var voicebundle);
+                if (!value.ContainsKey(voicename))
+                    value.Add(voicename, voicebundle);
             }
         }
     }

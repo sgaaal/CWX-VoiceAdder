@@ -6,7 +6,7 @@ namespace VoiceAdd
     {
         static void Main(string[] args)
         {
-            Log.Info("Loading: CWX-VoiceAdd");
+            Log.Info("Loading: CWX-VoiceAdder");
             new VoicePatch().Enable();
         }
     }
