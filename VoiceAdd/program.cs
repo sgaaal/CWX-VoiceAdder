@@ -1,12 +1,13 @@
-﻿using Aki.Common.Utils;
+﻿using BepInEx;
 
 namespace VoiceAdd
 {
-    public class Program
+    [BepInPlugin("com.CWX.VoiceAdder", "CWX-VoiceAdder", "2.0.0")]
+    public class Plugin : BaseUnityPlugin
     {
-        static void Main(string[] args)
+        private void Start()
         {
-            Log.Info("Loading: CWX-VoiceAdder");
+            Logger.LogInfo("Loading: CWX-VoiceAdder - V2.0.0");
             new VoicePatch().Enable();
         }
     }
