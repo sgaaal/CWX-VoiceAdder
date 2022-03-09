@@ -1,0 +1,26 @@
+## VOICEADDER
+*.exe
+*.zip
+test build/bin/
+test build/bin//obj/
+test build/bin//Properties/
+test build/obj/
+VoiceAdd/bin/
+VoiceAdd/bin//obj/
+VoiceAdd/bin//Properties/
+VoiceAdd/obj/
+*.editorconfig
+
+## visual studio
+.vs
+.idea
+slnx.sqlite
+slnx-journal.sqlite
+
+## nodejs
+node_modules
+node.exe
+package-lock.json
+
+## windows
+desktop.ini
