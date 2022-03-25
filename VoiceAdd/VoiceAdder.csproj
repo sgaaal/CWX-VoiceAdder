@@ -7,25 +7,25 @@
 
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\2.3.0 build = client 16909 Bepin\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\AKI 2.3.0 17107 Bepin\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Aki.Reflection">
-      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\2.3.0 build = client 16909 Bepin\EscapeFromTarkov_Data\Managed\Aki.Reflection.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\AKI 2.3.0 17107 Bepin\EscapeFromTarkov_Data\Managed\Aki.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\2.3.0 build = client 16909 Bepin\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\AKI 2.3.0 17107 Bepin\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\2.3.0 build = client 16909 Bepin\BepInEx\core\BepInEx.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\AKI 2.3.0 17107 Bepin\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\2.3.0 build = client 16909 Bepin\EscapeFromTarkov_Data\Managed\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\AKI 2.3.0 17107 Bepin\EscapeFromTarkov_Data\Managed\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\2.3.0 build = client 16909 Bepin\EscapeFromTarkov_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\Valens-HasThePower\ValensHasThePower\shared\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\..\..\..\..\AKI PROJECT\2.3.0 build = client 16909 Bepin\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\Valens-HasThePower\ValensHasThePower\shared\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
 
